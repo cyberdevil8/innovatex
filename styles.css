@@ -11,6 +11,17 @@
   --shadow: 0 24px 80px rgba(5, 11, 24, 0.45);
 }
 
+.arrow-box {
+  width: 20px;
+  overflow: hidden;
+}
+
+.logo-arrow-hack {
+  height: 40px;
+  transform: translateX(-85%); /* adjust to show only arrow */
+  animation: arrowUp 1.2s ease-in-out infinite;
+}
+
 .logo-container {
   display: flex;
   align-items: center;
