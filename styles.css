@@ -11,15 +11,43 @@
   --shadow: 0 24px 80px rgba(5, 11, 24, 0.45);
 }
 
-.arrow-box {
-  width: 20px;
-  overflow: hidden;
+.logo-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
 }
 
-.logo-arrow-hack {
-  height: 40px;
-  transform: translateX(-85%); /* adjust to show only arrow */
-  animation: arrowUp 1.2s ease-in-out infinite;
+.logo-text {
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.logo-arrow-css {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background: linear-gradient(180deg, #58c7ff 0%, #3aa8ff 100%);
+  clip-path: polygon(50% 0%, 100% 55%, 78% 55%, 78% 100%, 22% 100%, 22% 55%, 0% 55%);
+  animation: innovatexArrowUp 1.1s ease-in-out infinite;
+  filter: drop-shadow(0 0 6px rgba(58, 168, 255, 0.7));
+}
+
+@keyframes innovatexArrowUp {
+  0% {
+    transform: translateY(4px);
+    opacity: 0.65;
+  }
+  50% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(4px);
+    opacity: 0.65;
+  }
 }
 
 * {
