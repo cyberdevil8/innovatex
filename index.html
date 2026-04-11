@@ -200,14 +200,19 @@
           </p>
         </div>
 
-        <form class="contact-card fade-up delay-1" onsubmit="return handleSubmit(event)">
+        <form action="https://formspree.io/f/xojpgldq" method="POST" class="contact-form">
+          <input type="hidden" name="_subject" value="New InnovateX website enquiry">
+          <input type="hidden" name="_next" value="https://cyberdevil8.github.io/innovatex/thank-you.html">
+        
           <div class="form-row">
-            <input type="text" placeholder="Your name" required />
-            <input type="email" placeholder="Your email" required />
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
           </div>
-          <textarea rows="6" placeholder="Tell us about your interest in InnovateX" required></textarea>
-          <button type="submit" class="btn btn-primary full">Send Message</button>
-          <p id="formMessage" class="form-message"></p>
+        
+          <input type="text" name="subject" placeholder="Subject" required>
+          <textarea name="message" placeholder="Tell us about your interest in InnovateX" rows="6" required></textarea>
+        
+          <button type="submit">Send Message</button>
         </form>
       </div>
     </section>
