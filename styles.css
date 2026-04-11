@@ -22,55 +22,6 @@
   animation: arrowUp 1.2s ease-in-out infinite;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 32px;
-  font-weight: 600;
-  color: white;
-}
-
-.logo-text {
-  letter-spacing: 1px;
-}
-
-.arrow-group {
-  display: flex;
-  gap: 4px;
-  align-items: center;
-}
-
-.arrow {
-  height: 18px;
-  opacity: 0.8;
-  animation: arrowUp 1.5s ease-in-out infinite;
-}
-
-/* stagger effect */
-.a1 { animation-delay: 0s; }
-.a2 { animation-delay: 0.2s; }
-.a3 { animation-delay: 0.4s; }
-
-/* smooth motion */
-@keyframes arrowUp {
-  0% {
-    transform: translateY(6px);
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  60% {
-    transform: translateY(-8px);
-    opacity: 0.9;
-  }
-  100% {
-    transform: translateY(-12px);
-    opacity: 0;
-  }
-}
-
 * {
   box-sizing: border-box;
 }
