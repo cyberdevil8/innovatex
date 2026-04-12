@@ -14,7 +14,7 @@
 .logo-container {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 1px;
   text-decoration: none;
 }
 
