@@ -11,10 +11,11 @@
   --shadow: 0 24px 80px rgba(5, 11, 24, 0.45);
 }
 
+
 .logo-container {
   display: inline-flex;
   align-items: center;
-  gap: 0px;
+  gap: 4px;   /* small clean spacing */
   text-decoration: none;
 }
 
@@ -26,8 +27,9 @@
 }
 
 .logo-arrow-img {
-  width: 100px;
+  width: 100px;   /* perfect size */
   height: auto;
+  margin-left: -4px;  /* removes gap */
   display: block;
   animation: innovatexArrowFloat 1.2s ease-in-out infinite;
   filter: drop-shadow(0 0 6px rgba(67, 181, 255, 0.45));
