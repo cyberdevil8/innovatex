@@ -10,6 +10,7 @@ innovatex/
 └── CNAME               ← Custom domain (innovatextechnologies.com)
 ```
 
+
 ## 🚀 Tech Stack
 - **Three.js r128** — 3D WebGL scene, custom GLSL shaders, particle fields, orbital rings, floating geometries
 - **GSAP 3.12.5 + ScrollTrigger** — Cinematic camera scroll path, scroll reveals, counters, hero entrance animations
